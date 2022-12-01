@@ -1,0 +1,75 @@
+Programowanie Aplikacji Internetowych
+14.09
+Aplikacja GIMP - zmienić tło pomnika na gradient. (obraz w pliku kopernik.jpg)
+05.10
+JavaScript
+Za pomocą zagnieżdżonych pętli for uzyskać na stronie:
+
+1 2 3 4 5
+2 3 4 5
+3 4 5
+4 5
+5
+
+Pracownia Programowania Obiektowego
+29.09
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "PL_pl");
+	string s1 = "Język programowania ", s2 = "C++", s3 = " 11";
+	//Dodanie łańcuchów (Konkatenacja)
+	string s4 = s1 + s2;
+	cout << s4 << endl;
+	//Skopiowanie zawartości 
+	string s5 = s1;
+	s5 += s2;
+	//Dodawanie za pomocą funkcji
+	s5.append(s3);
+	cout << s5 << endl;
+	//Skopiowanie
+	string s6 = s2;
+	//Wstawienie za pomocą funkcji
+	s6.insert(0, s1);
+	cout << s6 << endl;
+	return 0;
+	/*s1.append();
+	s1.insert();
+	s2.compare();
+	s1.find();
+	s1.substr();
+	s1.replace();
+	s1.assign();
+	s1.length();*/
+	/*
+	Zmodyfikuj program: z łańcuchów źródłowych
+	"Język programowania ", "C# ", "8.0" zbuduj:
+	- "Język programowania C# "
+	- "C# 8.0"
+	- "Język programowania C# 8.0"
+	Wykorzystaj operatory +,+= oraz funkcje
+	append() i insert()
+	
+	*/
+}
+
+06.10
+* Napisz program umożliwiający zastąpienie podłańcucha "JavaScript" 
+	łańcuchem "Java" w łańcuchu znaków "C++, JavaScript, C#".
+	Wykorzystaj:
+	-C-napisy (wariant pierwszy)
+	-łańcuchy typu string (wariant drugi)
+*/
+
+Programowanie Obiektowe
+30.09
+Opisać działanie funkcji łańcuchowych (działanie, parametry wejściowe i wyjściowe, przykładowy kod w C++)
+s1.append() 
+s1.insert() 
+s2.compare() 
+s1.find()
+s1.substr() 
+s1.replace() 
+s1.assign() 
+s1.length()
