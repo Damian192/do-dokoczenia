@@ -73,3 +73,9 @@ s1.substr()
 s1.replace() 
 s1.assign() 
 s1.length()
+
+
+
+Program pozwalający przeliczać wybrane jednostki wagi w systemie SI (np. gram, kologram, tonę) na jednostki w systemie anglosaskim (np. funt, uncję, tonę angielską).
+Deklaraje (prototypy) funkcji, których zadaniem jest przeliczanie wagi podanej w danej jednostce na inną, należy umieścić w pliku nagłówkowym jednostki.h, a ich definicje
+w pliku źródłowym jednostki.cpp
